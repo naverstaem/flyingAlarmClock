@@ -1749,6 +1749,11 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .about p { margin-top: 30px; line-height: 1.6em; }
 .about p:first-of-type { margin-top: 110px; }
 
+.how { padding: 30px 0; background: url(../img/how_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #3c3c3c; }
+.how h2 { font-size: 60px; color: #ffaa00; margin-bottom: 40px; }
+.how p { margin-top: 25px; }
+.how button { margin-top: 40px; margin-bottom: 500px; padding: 19px 71px; }
+
 .advantages { padding: 40px 0 75px; background: url(../img/advantages_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; overflow: hidden; }
 .advantages .container { position: relative; }
 .advantages h2 { color: #ffffff; line-height: 1em; }
@@ -1758,23 +1763,6 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .advantages__item span { position: relative; display: inline-block; vertical-align: middle; background: url(../img/advantage-ico.png) no-repeat; width: 40px; height: 40px; top: 10px; left: 0; margin-right: 20px; }
 .advantages .parallax1 { top: 375px; left: -375px; }
 .advantages .parallax2 { top: 400px; right: -370px; }
-
-.how { font-size: 18px; color: #3c3c3c; font-family: "pf_din_text_cond_prolight"; overflow: hidden; }
-.how div[class*="col-md-4"] { text-align: center; }
-.how .container { position: relative; }
-.how__img { margin-top: 30px; }
-.how__img img { -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
-.how__title { position: relative; z-index: 1; display: inline-block; top: -50px; }
-.how__title span { font-family: "roboto_slabregular"; font-size: 60px; }
-.how__title div { color: #ffffff; display: inline-block; text-align: center; font-family: "pf_din_text_cond_prolight"; font-size: 24px; background: #ef3b45; padding: 23px 0; min-width: 200px; }
-.how__title div:before { position: absolute; background: url(../img/how-item-before.png); content: ""; width: 70px; height: 70px; top: 20px; left: -40px; z-index: -1; }
-.how__title div:after { position: absolute; content: ""; background: url(../img/how-item-after.png); width: 70px; height: 70px; top: 20px; right: -40px; z-index: -1; }
-.how__title div h3 { line-height: 1em; margin: 0; }
-.how__item { display: table; margin-top: 40px; }
-.how__item span { text-align: center; vertical-align: middle; display: inline-block; margin-right: 20px; width: 120px; height: 120px; border: 2px solid #f9f5e1; line-height: 116px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
-.how__item p { display: table-cell; vertical-align: middle; }
-.how .parallax4 { top: 700px; right: -370px; }
-.how .parallax3 { top: 660px; left: -340px; }
 
 .cook { padding: 50px 0 0; }
 .cook h2 { font-size: 48px; }
