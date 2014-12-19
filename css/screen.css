@@ -1783,11 +1783,11 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .characteristics__bottom { text-align: left; margin-top: 60px; }
 .characteristics__bottom .button--characteristics { padding: 19px 71px; }
 
-.works { padding: 20px 0 70px; }
-.works h2 { margin-bottom: 20px; font-size: 48px; color: #6ea01e; }
+.works { padding: 100px 0 70px; }
+.works h2 { margin-bottom: 20px; }
 .works__item { margin-top: 25px; text-align: center; }
 .works__item p { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #1e1e1e; padding: 0 40px; }
-.works__img { display: inline-block; margin-bottom: 10px; text-align: center; line-height: 140px; width: 140px; height: 140px; -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; border: solid 2px #e5f9c7; }
+.works__img { display: inline-block; margin-bottom: 10px; text-align: center; line-height: 140px; width: 140px; height: 140px; -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; border: solid 2px #dbdbdb; }
 .works__img img { vertical-align: middle; }
 
 .review { background: url(../img/review_bg.png); padding: 50px 0 100px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
