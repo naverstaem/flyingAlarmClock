@@ -1745,7 +1745,7 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 
 .about { padding: 70px 0; font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #3c3c3c; }
 .about h2 { color: #ffaa00; font-size: 60px; }
-.about__img { margin-left: 0; margin-top: 40px; }
+.about__img { margin-left: 0; margin-top: 40px; text-align: center; }
 .about p { margin-top: 30px; line-height: 1.6em; }
 .about p:first-of-type { margin-top: 110px; }
 
@@ -1754,52 +1754,16 @@ header .header__form, .header--bottom .header__form { position: relative; z-inde
 .how p { margin-top: 25px; }
 .how button { margin-top: 40px; margin-bottom: 500px; padding: 19px 71px; }
 
-.advantages { padding: 40px 0 75px; background: url(../img/advantages_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; overflow: hidden; }
+.advantages { padding: 40px 0 75px; overflow: hidden; }
 .advantages .container { position: relative; }
-.advantages h2 { color: #ffffff; line-height: 1em; }
-.advantages__item { color: #6e461e; font-size: 24px; font-family: "pf_din_text_cond_prolight"; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; background: rgba(255, 255, 255, 0.7); padding: 0 24px 20px 15px; margin-top: 17px; width: 100%; display: table; }
-.advantages__item:first-of-type { margin-top: 50px; }
-.advantages__item p { line-height: 1em; display: table-cell; }
-.advantages__item span { position: relative; display: inline-block; vertical-align: middle; background: url(../img/advantage-ico.png) no-repeat; width: 40px; height: 40px; top: 10px; left: 0; margin-right: 20px; }
-.advantages .parallax1 { top: 375px; left: -375px; }
-.advantages .parallax2 { top: 400px; right: -370px; }
-
-.cook { padding: 50px 0 0; }
-.cook h2 { font-size: 48px; }
-.cook__img { margin-top: 40px; }
-.cook__steps { margin-left: -50px; text-align: center; margin-top: 50px; }
-.cook__steps-item { display: inline-block; vertical-align: top; text-align: center; margin-right: 30px; position: relative; }
-.cook__steps-item:first-of-type:after { position: absolute; content: ""; background: url(../img/cook-ico.png) no-repeat; width: 60px; height: 20px; top: 0; right: -45px; }
-.cook__steps-item:nth-of-type(2):before { position: absolute; content: ""; background: url(../img/cook-ico.png) no-repeat; -moz-transform: scaleY(-1); -ms-transform: scaleY(-1); -webkit-transform: scaleY(-1); transform: scaleY(-1); width: 60px; height: 20px; bottom: 75px; right: -50px; }
-.cook__steps-item:last-of-type { margin-right: 0; }
-.cook__steps-item img { -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; margin-bottom: 10px; }
-.cook__steps-item p { font-family: "conv_segoeprintregular"; font-size: 18px; color: #3c3c3c; }
-.cook__text { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #1e1e1e; padding-left: 60px; }
-.cook__text p { margin-top: 25px; }
-
-.about2 { background: url(../img/about2_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 20px 0; }
-.about2 .container { position: relative; }
-.about2__img { background: url(../img/about2-img.png) no-repeat center center; width: 250px; height: 340px; }
-.about2 p { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #1e1e1e; margin-top: 20px; }
-.about2 .button--order { margin-top: 220px; width: 100%; font-size: 30px; padding-top: 15px; height: 80px; font-family: "pf_highway_sans_probold"; }
-.about2 .parallax5 { top: 340px; left: -340px; }
-
-.recipes { padding: 50px 0 80px; background: url(../img/recipes_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-.recipes h2 { font-family: "roboto_slabbold"; font-size: 72px; color: #ffffff; }
-.recipes__item { margin: 40px -35px 0; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; max-width: 540px; }
-.recipes__img { -moz-border-radius: 12px 12px 0 0; -webkit-border-radius: 12px; border-radius: 12px 12px 0 0; }
-.recipes__img img { -moz-border-radius: 12px 12px 0 0; -webkit-border-radius: 12px; border-radius: 12px 12px 0 0; width: 100%; }
-.recipes__text { background: url(../img/recipes-item-text_bg.png) repeat; position: relative; padding: 30px 35px; -moz-border-radius: 0 0 12px 12px; -webkit-border-radius: 0; border-radius: 0 0 12px 12px; }
-.recipes__text:before { position: absolute; content: ""; top: 0; width: 100%; background: url(../img/recipe-shadow.png) no-repeat; height: 20px; left: 50%; -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); transform: translateX(-50%); }
-.recipes__text h3 { margin: 0; font-family: "pf_din_text_cond_prothin"; font-size: 36px; color: #6ea01e; text-align: center; }
-.recipes__text h4 { font-family: "conv_segoeprintregular"; font-size: 18px; color: #6ea01e; text-align: center; margin-top: 10px; }
-.recipes__recipe { font-family: "pf_din_text_cond_prolight"; font-size: 18px; color: #64460a; }
-.recipes__recipe p { margin-top: 7px; }
-.recipes__details { font-family: "pf_din_text_cond_prolight"; font-size: 16px; color: #1e1e1e; margin-top: 20px; }
-.recipes__details p { margin-top: 15px; }
-.recipes .carousel-control { background-image: none; width: 50px; height: auto; }
-.recipes .carousel-control.left { background: url(../img/prev.png) no-repeat; width: 80px; height: 80px; top: 45%; left: 5%; }
-.recipes .carousel-control.right { background: url(../img/next.png) no-repeat; width: 80px; height: 80px; top: 45%; right: 5%; }
+.advantages div[class*="col-md-2"] { padding: 0 5px; margin-right: 60px; }
+.advantages div[class*="col-md-2"]:last-child { margin-right: 0; }
+.advantages h2 { margin-bottom: 20px; }
+.advantages__block { background: url(../img/advantages_bg.jpg) no-repeat 48% 100%; }
+.advantages__item { position: relative; text-align: center; margin-top: 25px; }
+.advantages__item p { font-family: "pf_din_text_cond_prolight"; font-size: 24px; }
+.advantages__item.i1, .advantages__item.i3 { margin-top: 65px; }
+.advantages__item-img { width: 160px; height: 160px; line-height: 160px; -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; border: solid 2px #efefef; margin-bottom: 10px; display: inline-block; }
 
 .characteristics { font-family: "pf_din_text_cond_prolight"; padding: 70px 0 30px; }
 .characteristics h2 { font-size: 48px; color: #6ea01e; }

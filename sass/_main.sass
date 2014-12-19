@@ -212,6 +212,7 @@ header
   &__img
     margin-left: 0
     margin-top: 40px
+    text-align: center
   p
     margin-top: 30px
     line-height: 1.6em
@@ -242,202 +243,36 @@ header
 
 .advantages
   padding: 40px 0 75px
-  background: url(../img/advantages_bg.jpg)
-  +cover
   overflow: hidden
   .container
     position: relative
-  h2
-    color: #ffffff
-    line-height: 1em
-  &__item
-    color: #6e461e
-    font-size: 24px
-    font-family: 'pf_din_text_cond_prolight'
-    +border-radius(20px)
-    background: rgba(#fff,.7)
-    padding: 0 24px 20px 15px
-    margin-top: 17px
-    width: 100%
-    display: table
-    &:first-of-type
-      margin-top: 50px
-    p
-      line-height: 1em
-      display: table-cell
-    span
-      position: relative
-      display: inline-block
-      vertical-align: middle
-      background: url(../img/advantage-ico.png) no-repeat
-      width: 40px
-      height: 40px
-      top: 10px
-      left: 0
-      margin-right: 20px
-  .parallax1
-    top: 375px
-    left: -375px
-  .parallax2
-    top: 400px
-    right: -370px
-
-
-
-.cook
-  padding: 50px 0 0
-  h2
-    font-size: 48px
-  &__img
-    margin-top: 40px
-  &__steps
-    margin-left: -50px
-    text-align: center
-    margin-top: 50px
-  &__steps-item
-    display: inline-block
-    vertical-align: top
-    text-align: center
-    margin-right: 30px
-    position: relative
-    &:first-of-type
-      &:after
-        position: absolute
-        content: ''
-        background: url(../img/cook-ico.png) no-repeat
-        width: 60px
-        height: 20px
-        top: 0
-        right: -45px
-    &:nth-of-type(2)
-      &:before
-        position: absolute
-        content: ''
-        background: url(../img/cook-ico.png) no-repeat
-        +transform(scaleY(-1))
-        width: 60px
-        height: 20px
-        bottom: 75px
-        right: -50px
-    &:last-of-type
+  div[class*="col-md-2"]
+    padding: 0 5px
+    margin-right: 60px
+    &:last-child
       margin-right: 0
-    img
-      +border-radius(50%)
-      margin-bottom: 10px
-
-    p
-      font-family: 'conv_segoeprintregular'
-      font-size: 18px
-      color: #3c3c3c
-
-
-  &__text
-    font-family: 'pf_din_text_cond_prolight'
-    font-size: 18px
-    color: #1e1e1e
-    padding-left: 60px
-    p
-      margin-top: 25px
-
-
-
-.about2
-  background: url(../img/about2_bg.png)
-  +cover
-  padding: 20px 0
-  .container
-    position: relative
-  &__img
-    background: url(../img/about2-img.png) no-repeat center center
-    width: 250px
-    height: 340px 
-  p
-    font-family: 'pf_din_text_cond_prolight'
-    font-size: 18px
-    color: #1e1e1e
-    margin-top: 20px
-  .button--order
-    margin-top: 220px
-    width: 100%
-    font-size: 30px
-    padding-top: 15px
-    height: 80px
-    font-family: 'pf_highway_sans_probold'
-  .parallax5
-    top: 340px
-    left: -340px
-.recipes
-  padding: 50px 0 80px
-  background: url(../img/recipes_bg.jpg)
-  +cover
   h2
-    font-family: 'roboto_slabbold'
-    font-size: 72px
-    color: #ffffff
+    margin-bottom: 20px
+  &__block
+    background: url(../img/advantages_bg.jpg) no-repeat 48% 100%
   &__item
-    margin: 40px -35px 0
-    +border-radius(12px)
-    max-width: 540px
-  &__img
-    +border-radius(12px 12px 0 0)
-    img
-      +border-radius(12px 12px 0 0)
-      width: 100%
-  &__text
-    background: url(../img/recipes-item-text_bg.png) repeat
     position: relative
-    padding: 30px 35px
-    +border-radius(0 0 12px 12px)
-    &:before
-      position: absolute
-      content: ''
-      top: 0
-      width: 100%
-      background: url(../img/recipe-shadow.png) no-repeat
-      height: 20px
-      left: 50%
-      +transform(translateX(-50%))
-    h3
-      margin: 0
-      font-family: 'pf_din_text_cond_prothin'
-      font-size: 36px
-      color: #6ea01e
-      text-align: center
-    h4
-      font-family: 'conv_segoeprintregular'
-      font-size: 18px
-      color: #6ea01e
-      text-align: center
-      margin-top: 10px
-  &__recipe
-    font-family: 'pf_din_text_cond_prolight'
-    font-size: 18px
-    color: #64460a
+    text-align: center
+    margin-top: 25px
     p
-      margin-top: 7px
-  &__details
-    font-family: 'pf_din_text_cond_prolight'
-    font-size: 16px
-    color: #1e1e1e
-    margin-top: 20px
-    p
-      margin-top: 15px
-  .carousel-control
-    background-image: none
-    width: 50px
-    height: auto
-    &.left
-      background: url(../img/prev.png) no-repeat
-      width: 80px
-      height: 80px
-      top: 45%
-      left: 5%
-    &.right
-      background: url(../img/next.png) no-repeat
-      width: 80px
-      height: 80px
-      top: 45%
-      right: 5%
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 24px
+    &.i1,&.i3
+      margin-top: 65px
+  &__item-img
+    width: 160px
+    height: 160px
+    line-height: 160px
+    +border-radius(24px)
+    border: solid 2px #efefef
+    margin-bottom: 10px
+    display: inline-block
+
 
 
 .characteristics
