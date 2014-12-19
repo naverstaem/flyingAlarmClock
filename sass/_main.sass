@@ -1,0 +1,714 @@
+.top
+
+.navbar
+  margin-bottom: 0
+
+/////////////////////
+//.navbar-collapse
+//  &.in
+//    overflow-y: inherit
+/////////////////////
+.navbar-brand
+  text-transform: uppercase
+  color: #ffffff !important
+  font-family: 'firasans-light'
+  font-size: 42px
+  margin-top: 10px
+  span
+    color: #282828
+.navbar-default
+  border: none
+  background: url(../img/nav_bg.png)
+  +cover
+  text-align: center
+  padding: 30px 0
+  .icon-bar
+    background-color: rgb(205,152,121) !important
+
+  .navbar-nav
+    //margin-top: 10px
+
+    li
+      a
+        color: #fff // text color
+        font-family: 'pf_din_text_cond_prolight'
+        font-size: 16px
+        position: relative
+        text-transform: none
+        text-decoration: underline
+        &:after
+          position: absolute
+          content: ''
+          top: 19px
+          right: 0
+          border-right: 1px solid
+          height: 12px
+          width: 0
+        &.last
+          &:after
+            border-right: 0
+
+        &:hover, &.active, &:focus
+          text-decoration: none
+          color: #ffffff
+
+
+  .navbar-right
+    margin-top: -10px
+    font-family: 'pf_din_text_cond_prolight'
+    padding: 3px 0
+    .phone-b
+      position: relative
+      display: inline-block
+      text-align: left
+      margin-top: 5px
+      &__nomenclature
+        margin-left: 5px
+        color: #ffffff
+        font-size: 16px
+        text-transform: none
+        display: inline-block
+        position: relative
+        line-height: 1em
+      &__phone
+        font-family: 'firasans-light'
+        font-size: 36px
+        color: #ffffff
+        margin-top: -7px
+        span
+          font-size: 36px
+          font-family: 'firasans-bold'
+
+    .right-b
+      display: inline-block
+      margin-left: 30px
+      .button--top
+        display: inline-block
+        +border-radius(20px)
+        +background-clip(padding-box)
+        background: transparent
+        width: 160px
+        height: 40px
+        font-family: 'pf_din_text_cond_prolight'
+        font-size: 18px
+        color: #1e1e1e
+        text-transform: none
+        vertical-align: bottom
+        +box-shadow(inset 0 -2px 0 rgba(222,181,45,.8))
+        +background(linear-gradient(to bottom, #ffef00 0%, #ffdb4f 100%))
+        +tr(background 100ms)
+        border: none
+        &:hover
+          +box-shadow(0 0 0 0)
+          background: #ffef00
+          color: #1e1e1e
+          border: none
+
+
+
+
+header
+  position: relative
+  background: url(../img/header_bg.jpg)
+  +cover
+  overflow: hidden
+  padding: 40px 0
+  text-align: center
+  .header__title
+    position: relative
+    z-index: 1
+    display: inline-block
+    span
+      font-family: 'firasans-bold'
+      font-size: 48px
+    div
+      color: #ffffff
+      display: inline-block
+      text-align: center
+      font-family: 'pf_din_text_cond_prothin'
+      font-size: 36px
+      background: #91b331
+      padding: 27px 75px
+      &:before
+        position: absolute
+        background: url(../img/header-title-before.png)
+        content: ''
+        width: 90px
+        height: 140px
+        top: 35px
+        left: -50px
+        z-index: -1
+      &:after
+        position: absolute
+        content: ''
+        background: url(../img/header-title-after.png)
+        width: 90px
+        height: 140px
+        top: 35px
+        right: -50px
+        z-index: -1
+      h1
+        margin: 0 0 10px
+  .header__text
+    color: #645a50
+    font-family: 'pf_din_text_cond_prolight'
+    font-size: 18px
+    margin: 300px -20px 0 0
+    text-align: left
+    line-height: 1.7em
+  .header__img
+    position: relative
+    max-width: 100%
+    display: inline-block
+    text-align: center
+    margin-top: -30px
+    img
+      position: relative
+      z-index: 1
+
+  .header__price
+    width: 200px
+    height: 200px
+    text-align: center
+    padding-top: 70px
+    display: inline-block
+    margin-top: 45px
+    +border-radius(50%)
+    +background-image(linear-gradient(to bottom, #ffffbd 0%, #ffbd1d 40%, #ef9505 100%))
+    position: absolute
+    bottom: 100px
+    right: 10px
+    z-index: 0
+    .price--new
+      display: inline-block
+      font-family: 'firasans-bold'
+      font-size: 48px
+      line-height: .8em
+      color: #ffffff
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+    .price--old
+      display: inline-block
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 24px
+      color: #a06e04
+      line-height: 1em
+
+
+
+  .header__form
+    position: relative
+    z-index: 0
+    margin: 80px 20px 0
+
+.about
+  padding: 70px 0
+  font-family: 'pf_din_text_cond_prolight'
+  font-size: 18px
+  color: #3c3c3c
+  h2
+    color: #ffaa00
+    font-size: 60px
+  &__img
+    margin-left: 0
+    margin-top: 40px
+    text-align: center
+  p
+    margin-top: 30px
+    line-height: 1.6em
+    &:first-of-type
+      margin-top: 110px
+
+.how
+  padding: 30px 0
+  background: url(../img/how_bg.jpg)
+  +cover
+  font-family: 'pf_din_text_cond_prolight'
+  font-size: 18px
+  color: #3c3c3c
+  h2
+    font-size: 60px
+    color: #ffaa00
+    margin-bottom: 40px
+  p
+    margin-top: 25px
+  a
+    margin-top: 40px
+    margin-bottom: 500px
+    padding: 19px 71px
+
+
+
+
+
+.advantages
+  padding: 40px 0 150px
+  overflow: hidden
+  .container
+    position: relative
+  div[class*="col-md-2"]
+    padding: 0 5px
+    margin-right: 60px
+    &:last-child
+      margin-right: 0
+  h2
+    margin-bottom: 20px
+  &__block
+    background: url(../img/advantages_bg.jpg) no-repeat 48% 100%
+  &__item
+    position: relative
+    text-align: center
+    margin-top: 25px
+    p
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 24px
+    &.i1,&.i3
+      margin-top: 65px
+  &__item-img
+    width: 160px
+    height: 160px
+    line-height: 160px
+    +border-radius(24px)
+    border: solid 2px #efefef
+    margin-bottom: 10px
+    display: inline-block
+
+
+
+.characteristics
+  font-family: 'pf_din_text_cond_prolight'
+  padding: 55px 0 75px
+  background: url(../img/characteristics_bg.jpg)
+  +cover
+  div[class*="col-md-4"]
+    padding-left: 0
+  &__img
+    margin-top: 35px
+    position: relative
+    text-align: center
+    img
+      position: relative
+      z-index: 1
+      margin-left: 60px
+    .tech
+      position: absolute
+      content: ''
+      display: inline-block
+      color: #ffffff
+      font-size: 18px
+      font-family: 'pf_din_text_cond_prolight'
+      z-index: 1
+      text-align: left
+      line-height: 1.6em
+      padding-left: 20px
+      &.i1
+        background: url(../img/ch-info1.png) no-repeat
+        width: 200px
+        height: 140px
+        padding-top: 15px
+        top: 280px
+        left: 0
+      &.i2
+        background: url(../img/ch-info3.png) no-repeat
+        width: 240px
+        height: 190px
+        padding-top: 55px
+        bottom: -15px
+        left: 0
+      &.i3
+        background: url(../img/ch-info2.png) no-repeat
+        width: 200px
+        height: 160px
+        padding-top: 15px
+        top: 200px
+        right: 50px
+      &.i4
+        background: url(../img/ch-info4.png) no-repeat
+        width: 200px
+        height: 190px
+        padding-top: 85px
+        bottom: -15px
+        right: 0
+  &__text-back
+    position: absolute
+    font-family: 'firasans-bold'
+    font-size: 96px
+    color: #ffffff
+    text-transform: uppercase
+    z-index: 0
+    text-align: left
+    line-height: .6
+    top: 100px
+    left: 0
+    span
+      font-size: 48px
+
+  &__dimensions
+    font-size: 18px
+    color: #3c3c3c
+    margin-top: 250px
+    p
+      margin-bottom: 5px
+  &__supplied
+    color: #3c3c3c
+    font-size: 18px
+    margin-top: 30px
+    p
+      margin-bottom: 5px
+
+  &__bottom
+    text-align: left
+    margin-top: 60px
+
+    .button--characteristics
+      padding: 19px 71px
+
+
+.works
+  padding: 100px 0 50px
+  h2
+    margin-bottom: 20px
+  &__item
+    margin-top: 25px
+    text-align: center
+    p
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #1e1e1e
+      padding: 0 40px
+
+  &__img
+    display: inline-block
+    margin-bottom: 10px
+    text-align: center
+    line-height: 140px
+    width: 140px
+    height: 140px
+    +border-radius(24px)
+    border: solid 2px #dbdbdb
+    img
+      vertical-align: middle
+
+
+
+.review
+  padding: 20px 0 80px
+  +cover
+  h2
+    margin-bottom: 20px
+  &__item
+    margin-top: 25px
+    position: relative
+  &__img
+    display: inline-block
+    width: 80px
+    height: 80px
+    margin-right: 15px
+    vertical-align: middle
+    img
+      +border-radius(50%)
+  &__head
+    text-align: center
+    display: inline-block
+    vertical-align: top
+
+  &__name
+    font-family: 'pf_din_text_cond_prolight'
+    color: #ffffff
+    font-size: 24px
+    position: relative
+    +background-image(linear-gradient(to left, #ffa900 0%, #ff6300 100%))
+    height: 50px
+    width: 180px
+    padding-top: 7px
+    +box
+
+    &:after
+      position: absolute
+      top: 49px
+      left: 11px
+      background: url(../img/review-popup.png) no-repeat
+      width: 30px
+      height: 21px
+      content: ""
+
+  &__text
+    font-family: 'pf_din_text_cond_prolight'
+    font-size: 18px
+    color: #1e1e1e
+    margin-top: 10px
+    padding-right: 20px
+    line-height: 1.6em
+
+
+
+.header--bottom
+  @extend header
+  padding-top: 120px
+  background: url(../img/header--bottom_bg.jpg)
+  +cover
+  overflow: visible
+  &__present
+    color: #ffffff
+    background: url(../img/header-present_bg.jpg)
+    +cover
+    margin: 0 -18px
+    +border-radius(12px)
+    padding: 25px 45px
+    position: relative
+    top: 50px
+    margin-bottom: -80px
+    h3
+      font-family: 'firasans-bold'
+      font-size: 36px
+    .present__item
+      text-align: left
+      margin-top: 25px
+      h4
+        font-size: 24px
+        overflow: hidden
+        padding-top: 20px
+      p
+        font-size: 18px
+        overflow: hidden
+        line-height: 1.7em
+    .present__img
+      float: left
+      margin-right: 15px
+  &__shadow
+    position: absolute
+    bottom: -70px
+    left: 50%
+    +transform(translateX(-50%))
+    width: 100%
+    max-width: 700px
+    height: 80px
+    background: url(../img/header-shadow.png)
+    z-index: -1
+    +cover
+  &__hat
+    position: absolute
+    top: -62px
+    right: -32px
+    background: url(../img/present-hat.png) no-repeat
+    content: ''
+    width: 110px
+    height: 120px
+    z-index: 1
+.other
+  margin-top: 0
+  padding: 210px 0 60px
+  h2
+    margin-bottom: 30px
+    color: #ffaa00
+  &__item
+    width: 100%
+    text-align: center
+    padding: 25px 10px
+    border: solid 2px #e6e6e6
+    margin-top: 20px
+    +border-radius(4px)
+  &__caption
+    font-size: 24px
+    font-family: 'conv_pfdintextcondpro-light'
+    margin-bottom: 10px
+    color: #281e1e
+    text-transform: none
+  &__img
+    display: inline-block
+    img
+
+      display: block
+      width: 100%
+      max-width: 290px
+  &__bottom
+    margin-top: 35px
+  &__price
+    +box
+    line-height: 1.4em
+    text-align: left
+    display: inline-block
+    vertical-align: middle
+    margin-top: 0
+    h3
+      font-family: 'conv_pfdintextcondpro-thin'
+      font-size: 48px
+      font-weight: normal
+      color: #1e1e1e
+      vertical-align: middle
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+    h4
+      display: inline-block
+      font-size: 18px
+      color: #5a5a5a
+  &__text
+    padding: 20px 10px 0
+    font-size: 16px
+    color: #787878
+    text-align: center
+    margin-bottom: 5px
+    font-family: 'pf_din_text_cond_prolight'
+  &__more
+    font-family: 'pf_din_text_cond_prolight'
+    color: #23bed2
+    font-size: 18px
+    text-decoration: underline
+    &:hover, &:focus, &:active
+      text-decoration: none
+      color: #23bed2
+
+  &__form
+    display: inline-block
+    vertical-align: middle
+    margin-left: 0
+    padding: 0 25px
+    form
+      margin: 0
+      input
+        +placeholder
+          font-size: 16px
+          font-family: 'pf_din_text_cond_prolight'
+          color: #5a5a5a
+        height: 50px
+        font-size: 16px
+        border: none
+        +border-radius(4px)
+        +background-clip(padding-box)
+        background: #efefef
+        width: 100%
+        margin-bottom: 10px
+        padding-left: 15px
+        +box-shadow(inset 0 1px 2px rgba(0,0,0,.36))
+
+        &:focus
+          +box-shadow(0 0 9px rgba(204,62,82,.13))
+      .button--other
+        margin-top: 7px
+        width: 49%
+        height: 60px
+        color: #ffffff
+        font-size: 24px
+        font-family: 'pf_highway_sans_probold'
+        border: none
+        +box-shadow(inset 0 -6px 0 rgba(165,100,40,.3))
+        +background-image(linear-gradient(to bottom, #ffffbd 0%, #ffbd1d 40%, #ef9505 100%))
+        +single-text-shadow()
+        +border-radius(4px)
+        &:hover, &:focus
+          background: #ffbd1d
+          color: #ffffff
+        &:active
+          +box-shadow(0 0 0 0)
+
+
+  &__price
+    +box
+    line-height: 1.4em
+    text-align: left
+    display: inline-block
+    vertical-align: middle
+    margin-top: 20px
+    width: 49%
+    h3
+      font-family: 'pf_din_text_cond_prothin'
+      font-size: 48px
+      font-weight: normal
+      color: #1e1e1e
+      vertical-align: middle
+      margin: 0
+      line-height: .6em
+      span
+        font-family: 'als_rublregular'
+        font-size: 24px
+    h4
+      display: inline-block
+      font-family: 'pf_din_text_cond_prolight'
+      font-size: 18px
+      color: #787878
+      font-weight: normal
+      margin: 0
+
+footer
+  background: url(../img/footer_bg.png) repeat
+  padding: 12px
+  font-family: 'pf_din_text_cond_prolight'
+  text-align: center
+  p
+    font-size: 16px
+    margin-bottom: 5px
+    color: #787878
+    &:last-child
+      margin-bottom: 0
+  a
+    color: #be3c0a
+    text-decoration: underline
+    &:hover, &:active, &:focus
+      color: #be3c0a
+      text-decoration: none
+
+
+
+
+
+
+
+//media queries
+@media (max-width: $screen-md-min)
+  .recipes__item
+    margin: 40px auto 0
+  header
+    .header__text
+      margin: 30px 0
+  .advantages
+    div[class*="col-md-2"]
+      margin-left: 0
+      margin-right: 0
+    &__item
+      &.i5
+        p
+          color: #ffffff
+  .header--bottom__present
+    margin: 0
+  .characteristics__dimensions
+    margin-top: 50px
+@media (max-width: $screen-sm-min)
+  h1, h2
+    font-size: 32px !important
+    span
+      font-size: 32px !important
+  .header__img, .about__img, .characteristics__img
+    img
+      max-width: 100%
+  .about__img
+    margin-left: 0
+  header
+    .header__title
+      div
+        &:before,&:after
+          background: none
+          display: none
+  .characteristics__img
+    img
+      margin: 0
+    .tech
+      position: static !important
+      background: rgba(#4559a9, .8) !important
+      width: 100% !important
+      +border-radius(12px)
+      margin-top: 15px
+      padding-top: 20px !important
+      padding-bottom: 20px
+      height: auto !important
+
+
+
+@media (max-width: $screen-xs-min)
+  .characteristics__text-back
+    font-size: 48px
+    span
+      font-size: 24px
+
+
