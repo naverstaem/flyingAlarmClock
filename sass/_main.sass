@@ -232,7 +232,7 @@ header
     margin-bottom: 40px
   p
     margin-top: 25px
-  button
+  a
     margin-top: 40px
     margin-bottom: 500px
     padding: 19px 71px
@@ -277,36 +277,58 @@ header
 
 .characteristics
   font-family: 'pf_din_text_cond_prolight'
-  padding: 55px 0 45px
+  padding: 55px 0 75px
   background: url(../img/characteristics_bg.jpg)
   +cover
-
+  div[class*="col-md-4"]
+    padding-left: 0
   &__img
-    margin-top: 55px
+    margin-top: 35px
     position: relative
     text-align: center
     img
       position: relative
       z-index: 1
-    .amount
+      margin-left: 60px
+    .tech
       position: absolute
       content: ''
       display: inline-block
-      width: 140px
-      height: 140px
       color: #ffffff
-      background: rgba(#6d9f1d, .8)
-      +border-radius(50%)
-      padding-top: 50px
-      line-height: .5em
-      text-align: center
-      font-size: 36px
-      font-family: 'roboto_slabbold'
-      top: 50px
-      right: 35px
-      span
-        font-family: 'pf_din_text_cond_proLtIt'
-        font-size: 18px
+      font-size: 18px
+      font-family: 'pf_din_text_cond_prolight'
+      z-index: 1
+      text-align: left
+      line-height: 1.6em
+      padding-left: 20px
+      &.i1
+        background: url(../img/ch-info1.png) no-repeat
+        width: 200px
+        height: 140px
+        padding-top: 15px
+        top: 280px
+        left: 0
+      &.i2
+        background: url(../img/ch-info3.png) no-repeat
+        width: 240px
+        height: 190px
+        padding-top: 55px
+        bottom: -15px
+        left: 0
+      &.i3
+        background: url(../img/ch-info2.png) no-repeat
+        width: 200px
+        height: 160px
+        padding-top: 15px
+        top: 200px
+        right: 50px
+      &.i4
+        background: url(../img/ch-info4.png) no-repeat
+        width: 200px
+        height: 190px
+        padding-top: 85px
+        bottom: -15px
+        right: 0
   &__text-back
     position: absolute
     font-family: 'firasans-bold'
@@ -316,34 +338,30 @@ header
     z-index: 0
     text-align: left
     line-height: .6
+    top: 100px
+    left: 0
     span
       font-size: 48px
 
-  &__dimensitions
-    font-size: 24px
-    color: #6ea01e
-    margin-top: 45px
-  &__supplied
-    color: #ff8c1e
+  &__dimensions
     font-size: 18px
-    padding-left: 20px
-    h3
-      font-size: 24px
+    color: #3c3c3c
+    margin-top: 250px
+    p
+      margin-bottom: 5px
+  &__supplied
+    color: #3c3c3c
+    font-size: 18px
+    margin-top: 30px
+    p
+      margin-bottom: 5px
+
   &__bottom
     text-align: left
-    margin-top: 30px
-    padding-left: 20px
+    margin-top: 60px
 
     .button--characteristics
-      font-size: 30px
-      height: 80px
-      max-width: 240px
-      padding: 15px 67px 0
-      display: inline-block
-      vertical-align: bottom
-      margin-left: 35px
-      position: relative
-      top: 5px
+      padding: 19px 71px
 
 
 .works
